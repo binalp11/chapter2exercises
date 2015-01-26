@@ -14,3 +14,15 @@ print("Coding region: " + exon_1 + exon_2)
 
 
 
+#part 3
+
+lengthtotal = len(sequence)
+
+lengthexon = len(exon_1) + len (exon_2)
+
+percent = lengthexon/lengthtotal * 100
+
+print("The percentage of the sequence that is coding is: " + str(percent) + "%")
+
+
+
