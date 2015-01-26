@@ -14,7 +14,7 @@ print("Coding region: " + exon_1 + exon_2)
 
 
 
-#part 3
+#part 2
 
 lengthtotal = len(sequence)
 
@@ -25,4 +25,9 @@ percent = lengthexon/lengthtotal * 100
 print("The percentage of the sequence that is coding is: " + str(percent) + "%")
 
 
+# part 3
 
+
+intron = sequence[63:90]
+
+print(exon_1 + intron.lower() + exon_2)
